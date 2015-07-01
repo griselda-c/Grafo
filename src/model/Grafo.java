@@ -14,7 +14,7 @@ public class Grafo {
 		
 		public void addArista(int v1, int v2){
 			Nodo vertice1 = vertices.elementAt(v1);
-			vertice1.agregarVecino(v2); //guardo int, necesito el objeto?
+			vertice1.agregarVecino(v2); 
 			
 			Nodo vertice2 = vertices.elementAt(v2);
 			vertice2.agregarVecino(v1);
