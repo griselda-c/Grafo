@@ -5,8 +5,6 @@ import java.util.Vector;
 
 public class Grafo {
 	
-	//Primero el vector con listas que guardan los vecinos
-		//grafo no dirigido
 		private Vector<Nodo>vertices = new Vector<Nodo>();
 		
 		public Grafo(){
