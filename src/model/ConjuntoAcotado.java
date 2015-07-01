@@ -28,7 +28,10 @@ public class ConjuntoAcotado {
 	}
 	
 	public void eliminar(Integer elem) {
-		elems.remove(index.elementAt(elem).next());
+		//elems.remove(index.elementAt(elem).next());
+		ListIterator<Integer>iter = index.elementAt(elem);
+		iter.next();
+		iter.remove();
 		index.setElementAt(elems.listIterator(elems.size()), elem); //elems.end()
 	}
 	
